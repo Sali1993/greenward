@@ -1,0 +1,11 @@
+{% extends 'greenward/base.html' %} {% block content %}
+<h2>{{ local.name }} <a href="{% url 'local_edit' pk=local.pk %}">(edit)</a> <a href="{% url 'local_delete' pk=local.pk %}">Delete</a> </h2>
+<h4>{{ local.city }},{{local.state}}</h4>
+
+<img src="{{ local.photo_url }}" alt="Location" class="local-photo" />
+
+<h3>About:</h3>
+<p>{{local.description}}</p>
+<h4>Visit us @<a href="{{local.website}}">{{local.website}}</a></h4>
+
+{% endblock %}

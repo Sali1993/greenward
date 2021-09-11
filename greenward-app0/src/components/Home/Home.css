@@ -1,0 +1,144 @@
+.hero {
+    background-image: url('https://media.istockphoto.com/vectors/funny-afro-american-family-driving-in-red-car-on-weekend-holiday-vector-id919636758?k=20&m=919636758&s=612x612&w=0&h=ZXOqHrSNTKmhNZQXUbB2vm4MveWv6Mx6lUpHlLpAAVI=');
+    height: 50vh;
+    background-size: cover;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:-75px;
+}
+
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Sacramento', cursive; */
+
+.hero h1 {
+    color: white;
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+    font-size: 5rem;
+    text-shadow: 6px 6px 6px black;
+    letter-spacing: 2px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.search{
+    border-radius: 15px;
+   height:5vh;
+   width: 35vw;
+}
+
+.exploreBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20vh;
+    margin-top: 1vh;
+}
+
+.myBtn{
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:25px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:25px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.myBtn:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myBtn:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* .fa-chevron-down {
+    color: black;
+    font-size: 3rem;
+    position: absolute;
+    bottom: 0;
+} */
+
+@media only screen and (max-width: 500px) {
+   
+
+
+.hero {
+    background-image: url('https://media.istockphoto.com/vectors/funny-afro-american-family-driving-in-red-car-on-weekend-holiday-vector-id919636758?k=20&m=919636758&s=612x612&w=0&h=ZXOqHrSNTKmhNZQXUbB2vm4MveWv6Mx6lUpHlLpAAVI=');
+    height: 50vh;
+    background-size: cover;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:-8vh;
+}
+
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Sacramento', cursive; */
+
+ .hero h1 {
+    color: white;
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+    font-size: 4rem;
+    text-shadow: 6px 6px 6px black;
+    letter-spacing: 2px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.search{
+    border-radius: 15px;
+   height:5vh;
+   width: 35vw;
+}
+
+  .exploreBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 10vh;
+    margin-top:1vh;
+}
+
+.myBtn{
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:25px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:15px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+}

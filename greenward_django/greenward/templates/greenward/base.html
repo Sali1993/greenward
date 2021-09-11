@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+
+<head>
+    <title>Greenward</title>
+    <link rel="stylesheet" href="{% static 'css/greenward.css' %}" />
+</head>
+
+<body>
+    <h1>Greenward</h1>
+    <nav>
+        <a href="/">Explore</a>
+    </nav>
+    {% block content %} {% endblock %}
+</body>
+
+</html>
